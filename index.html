@@ -1,22 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- Hero/Title intro -->
+    <section id="title" class="main-background container-fluid">
+      <div class="title-properties">
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="bootstrap-themes.png"
+                class="d-block mx-lg-auto img-fluid rounded-3"
+                alt="Profile Picture"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1
+                class="display-6 fw-bold text-body-emphasis lh-1 mb-3 libre-baskerville-regular"
+              >
+                Martin Castellanos
+              </h1>
+              <p class="lead">
+                Currently in courses to become a Web Developer. Putting in the
+                work to see it come to life!<br />Going to become a full stack
+                Web Dev
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Martin's Portfolio</title>
-</head>
+    <!-- Project Show Case -->
+    <section id="showcase">
+      <div class="container-fluid py-5">
+        <div class="row g-3 justify-content-center">
+          <div class="">
+            <div>
+              <p class="libre-baskerville-bold proj-text">Project Showcase</p>
+            </div>
+          </div>
 
-<body>
-  <h1>Martin Castellanos's Portfolio</h1>
-  <h2>I'm a Web Developer</h2>
-  <hr />
-  <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-  <img src="./assets/images/movie-ranking.png" height="200" alt="movie ranking project preview"/>
-  <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-  <img src="./assets/images/birthday-invite.png" height="200" alt="birthday invite project preview"/>
-  <hr />
-  <a href="./public/about.html">About Me</a>
-  <a href="./public/contact.html">Contact Me</a>
-</body>
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="box">
+              <img src="" alt="Thumbnail" class="img-fluid" />
+              <p class="libre-baskerville-regular">
+                First Project will be given here when it finished. Until then
+                here is some lorem ipsum
+              </p>
+            </div>
+          </div>
 
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="img-box box">
+              <img src="" alt="Thumbnail" />
+              <p class="libre-baskerville-regular">
+                Second Project will be given here when it finished. Until then
+                here is some lorem ipsum.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-8 col-lg-6">
+            <div class="img-box box">
+              <img src="" alt="Thumbnail" />
+              <p class="libre-baskerville-regular">
+                Third Project will be given here when it finished. Until then
+                here is some lorem ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume link/page for education, work, and skills -->
+    <section id="resume">
+      <p style="text-align: center;"> --Resume Will be here soon--</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="aboutme">
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom libre-baskerville-bold">About Me</h2>
+
+        <div
+          class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+        >
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="libre-baskerville-bold">
+              Turning Ideas Into Reality Through Code
+            </h2>
+            <p class="libre-baskerville-regular">
+              I’m a web developer in the making, currently sharpening my skills
+              through hands-on projects and continuous learning. From crafting
+              responsive layouts to solving real-world problems, I’m passionate
+              about building things that make a difference. When I’m not coding,
+              you’ll probably find me [hobby], always looking for ways to stay
+              creative.
+            </p>
+          </div>
+
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <h4 class="libre-baskerville-bold">Tech Stack</h4>
+                <p class="libre-baskerville-regular">
+                  HTML, CSS, Java, MERN Stack, Stripe for e-commerce integration.
+                </p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <i class="bi bi-lightbulb"></i>
+                </div>
+                <h4 class="libre-baskerville-bold">Problem Solver</h4>
+                <p class="libre-baskerville-regular">
+                  I enjoy tackling challenges and finding the best solutions.
+                </p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <i class="bi bi-journal-code"></i>
+                </div>
+                <h4 class="libre-baskerville-bold">Always Learning</h4>
+                <p class="libre-baskerville-regular">
+                  Continuously growing my skills to stay current with new tech.
+                </p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <i class="bi bi-controller"></i>
+                </div>
+                <h4 class="libre-baskerville-bold">Creative Outlets</h4>
+                <p class="libre-baskerville-regular">
+                  Gamer, EDM enthusiast, and a fan of spontaneous adventures.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me/Footer -->
+    <section id="footer">
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-top border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">GITHUB</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Linkdin</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Website</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">Martin Castellanos 2025 ©</p>
+        </footer>
+      </div>
+    </section>
+    <!-- ************************************************************************************************************************************ -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

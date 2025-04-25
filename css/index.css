@@ -1,0 +1,58 @@
+.main-background {
+  background-color: #A491D3;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.main-background img {
+  /* border-radius: 50%; */
+  border: 1px solid black;
+  width: 450px;
+  height: 300px;
+}
+.title-properties {
+  color: rgb(184, 184, 184);
+  padding-top: 50px;
+}
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: xx-large;
+  font-style: normal;
+  color: black;
+}
+
+#showcase {
+    height: fit-content;
+    background-color: #9AA899;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:10px 10px;
+}
+.proj-text{
+  text-align: center;
+}
+.box p{
+    color: rgb(184, 184, 184);
+    
+}
+.box {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#aboutme{
+  background-color: #FFFDF7;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
